@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 
-      <div className='min-h-screen text-[#d6d2ca] text-center uppercase'>
+      <div className='min-h-screen text-[#d6d2ca] text-center uppercase pb-12'>
         <h1 className='text-4xl py-8'>Mind Home</h1>
         <div className='px-48'>
           <Canvas colorManagement shadowMap camera={{ position: [-5, 4, 4], fov: 40 }}>
